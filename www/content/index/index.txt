@@ -9,33 +9,28 @@ contact_us:
 ### Contact Us ###
 CHURCH
 
-4451 Wagner Rd,
-
-Dayton, OH 45440
-
-Phone: 937-320-9977
-
-Fax: 937-320-9986
-
-Office assistant: <a href="mailto:office@stpdayton.org">office@stpdayton.org</a>
+- 4451 Wagner Rd, Dayton, OH 45440
+- Phone: 937-320-9977
+- Fax: 937-320-9986
+- Office assistant: <a href="mailto:office@stpdayton.org">office@stpdayton.org</a>
 
 CLERGY
 
 VRev. Theodore Bobosh, Rector
 
-937-297-3060
-
-937-320-9977
-
-<a href="mailto:FrTed@stpdayton.org">FrTed@stpdayton.org</a>
+- 937-297-3060
+- 937-320-9977
+- <a href="mailto:FrTed@stpdayton.org">FrTed@stpdayton.org</a>
 
 Rev Dn. Stephan Gresh, Deacon
 
-937-465-0519
-deaconsteveg@earthlink.net
+- 937-465-0519
+- deaconsteveg@earthlink.net
 
 The Right Reverend Matthias,Bishop of Chicago and the Midwest, Orthodox
 Church in America
-<a HREF="http://midwestdiocese.org">midwestdiocese.org</a>
+
+- <a HREF="http://midwestdiocese.org">midwestdiocese.org</a>
+
 -
 
