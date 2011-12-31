@@ -1,0 +1,281 @@
+
+body {
+	font:					normal 100% Helvetica, Arial, sans-serif;
+	background:			#ffffff url("fixed_tile.jpg") repeat-x fixed top left;
+	margin:				1.5%;
+}
+
+p {
+	color:				#111111;
+}
+
+
+/*****************TITLE BAR********************/
+
+
+#title {
+	background:			#6a64a2 url("title_gradient_tile.jpg") repeat-x scroll top left;
+	border-width:		1px 0px;
+	border-style:		solid;
+	border-color:		#5b568b;
+	margin-top:			4.5%;
+	margin-left:		-1.54%;
+	margin-right:		-1.54%;
+	font-variant:		small-caps;
+	font-family:		sans-serif;
+	text-align:			center;
+	color:				#3e3b5f;
+}
+
+#title h1 {
+	font-size:			1.7em;
+	margin:				0%;
+}
+
+#title h2 {
+	font-size:			1.2em;
+	letter-spacing:	0.4em;
+	margin:				0%;
+}
+
+/***************TITLE PICTURES******************/
+
+.title-picture {
+	height:				152px;
+	overflow:			hidden;
+}
+
+#title-picture-left {
+	background:			transparent url("paul_top.png") no-repeat scroll top center;
+}
+
+#title-picture-right {
+	background:			transparent url("church_top.png") no-repeat scroll top center;
+
+}
+
+.title-picture-frame {
+	background:			transparent url("title_picture_gradient.jpg") repeat-x scroll top left;
+	height:				125px;
+	width:				14.096%;
+	margin-top:			-3%;
+}
+
+#title-picture-frame-left {
+	float:				left;
+	border-width:		1px;
+	border-style:		solid;
+	border-color:		#5b568b;
+}
+
+#title-picture-frame-right {
+	float:				right;
+	clear:				right;
+	border-width:		1px;
+	border-style:		solid;
+	border-color:		#5b568b;
+}
+
+/***************BOX*******************/
+
+.box {
+	background:			#FFFFFF;
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		0px 1px 1px;
+	margin-top:			1.54%;
+}
+
+.box h1 {
+	background:			#6862a0 url("box_header.jpg") repeat-x scroll top left;
+	font-variant:		small-caps;
+	font-size:			1.2em;
+	font-family:		sans-serif;
+	text-align:			center;
+	margin:				0px;
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		1px 0px;
+	color:				#3e3b5f;
+	min-height:			1.2em;
+	overflow:			hidden;
+}
+
+.box p {
+	margin:				0.3em;
+	overflow:			hidden;
+}
+
+/*****************CONTENT****************/
+
+.content {
+	width:				68.4%;
+	position:			relative;
+	margin-left:		15.636%;
+}
+
+.content p {
+}
+
+.content h1 {
+	letter-spacing:	0.4em;
+	overflow:			hidden;
+}
+
+.content h2 {
+	margin:				3px;
+	font-size:			1em;
+}
+
+/****************LEFT****************/
+
+.left {
+	width:				14%;
+	float:				left;
+	clear:				left;
+}
+
+.left ul {
+	list-style:			none inside none;
+	padding:				0px;
+	margin:				0px;
+	min-width:			90%;
+}
+
+.left ul li {
+}
+
+.left ul li a {
+	text-align:			left;
+	display:				block;
+	font-variant:		small-caps;
+	font-size:			1em;
+	font-family:		sans-serif;
+	text-decoration:	none;
+	margin:				5px 0px 5px 5px;
+	width:				91%;
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		1px;
+	color:				#111111;
+	overflow:			hidden;
+	background:			#FFFFFF url("nav_link.jpg") repeat-x scroll bottom left;
+}
+
+.nav-bullet {
+	background:			#7e78c2 url("button_end.jpg") repeat-x scroll top left;
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		0px 1px 0px 0px;
+	height:				100%;
+	width:				14px;
+	float:				left;
+	margin-right:		0.3em;
+}
+
+.nav-bullet div {
+	background:			transparent url("nav_bullet.png") no-repeat scroll center center;
+}
+
+.left ul li a:hover {
+	background-image:	url("nav_link_hover.jpg");
+	z-index:				2;
+	position:			relative;
+	min-width:			6em;
+}
+
+.left ul li a:active .nav-bullet div {
+	background-image:	url("nav_bullet_hover.png");
+	z-index:				2;
+	position:			relative;
+}
+
+.left ul li a:active {
+	color:				white;
+}
+
+/****************RIGHT******************/
+
+.right {
+	width:				14.096%;
+	float:				right;
+	clear:				right;
+}
+
+#in-brief {
+	font-size:			0.8em;
+}
+
+#in-brief dl {
+	list-style:			none;
+	margin:				0;
+	padding:				3px;
+}
+
+#in-brief dt {
+	border-color:		#AAAAAA;
+	border-width:		1px 0px 0px;
+	border-style:		dashed;
+	color:				#AAAAAA;
+	clear:				right;
+	margin;				0;
+}
+
+#in-brief dd {
+	margin-left:		0.6em;
+}
+
+#in-brief dd ul {
+	list-style:			none;
+	padding:				0;
+}
+
+#in-brief dd li {
+	margin:				0;
+	border-color:		#AAAAAA;
+	border-width:		1px 0px 0px;
+	border-style:		dashed;
+}
+
+#in-brief dd li:first-child {
+	border:					none;
+}
+
+#in-brief dt:first-child {
+	border-top:				none;
+}
+
+/***************SCROLLER**************/
+
+.scroller {
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		1px;
+	width:				90%;
+	height:				110px;
+	margin-left:		5%;
+	margin-top:			5%;
+	margin-bottom:		5%;
+	background-position:	left center;
+}
+
+#switcher1 {
+	background-image:	url("picture3.jpg");
+}
+
+#switcher2 {
+	background-image:	url("picture6.jpg");
+}
+
+
+/***************FOOTER****************/
+#footer {
+	background:			#6a64a2 url("title_gradient_tile.jpg") repeat-x scroll top left;
+	text-align:			center;
+	border-width:		1px 0px;
+	border-style:		solid;
+	border-color:		#5b568b;
+	margin-top:			1.5%;
+	margin-left:		-1.54%;
+	margin-right:		-1.54%;
+}

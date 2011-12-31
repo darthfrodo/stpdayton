@@ -1,0 +1,6 @@
+manual changes
+iconv -f MS-ANSI -t ISO88591 1 > 2
+recode -f /qp <2 >3
+insert into bulletin.htm
+save as 4
+iconv -f UTF-8 -t ISO88591 4 >5

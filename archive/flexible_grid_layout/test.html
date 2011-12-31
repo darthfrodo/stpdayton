@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>St. Paul's Orthodox Church</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var derArray = ['up_left.gif', 'up_right.gif','down_left.gif', 'down_right.gif'];
+
+			function ImageScroller(imageId, imageArray)
+			{
+				this.id = imageId;
+				this.images = imageArray;
+				this.currentIndex = 0;
+				this.nextIndex = 1;
+			}
+
+			ImageScroller.prototype.next = function()
+			{
+				this.currentIndex = this.nextIndex;
+				this.nextIndex++;
+				if (this.nextIndex >= this.images.length)
+					{
+						this.nextIndex = 0;
+					}
+				document.getElementById(this.id).src = this.images[this.currentIndex];
+			}
+
+			var scroller1 = new ImageScroller('b1', derArray);
+			var scroller2 = new ImageScroller('b2', derArray);
+
+		</script>
+		<div class="box right">
+			<h1>
+				Ugly Code!
+			</h1>
+			<p>
+				<img id="b1" src="up_left.gif"/>
+				<img id="b2" src="up_left.gif"/>
+			</p>
+		</div>
+<form>
+<input type="button" value="toggle!" onClick="setInterval('scroller1.next()',1000)"/>
+</form>
+<form>
+<input type="button" value="toggle!" onClick="setInterval('scroller2.next()',1000)"/>
+</form>
+	</body>
+</html>

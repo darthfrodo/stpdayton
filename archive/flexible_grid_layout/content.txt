@@ -1,0 +1,16 @@
+index
+	Church contact info
+	headings (blurbs)? for news items 
+
+bulletin
+	bulletin
+
+news
+	news items
+
+youth?
+
+pictures
+	investigate piccassa
+
+

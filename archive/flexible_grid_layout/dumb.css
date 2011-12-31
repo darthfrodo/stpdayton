@@ -1,0 +1,56 @@
+body{
+	background: #FFFFFF;
+}
+div {
+	border-width: 0px 1px 1px 0px;
+	border-color: #FFFFFF;
+	border-style: solid;
+}
+
+div div {
+	border-width: 0px 1px 1px 0px;
+	border-color: #e0e0e0;
+	border-style: solid;
+}
+
+div div div{
+	border-width: 0px 1px 1px 0px;
+	border-color: #c0c0c0;
+	border-style: solid;
+}
+
+div div div div{
+	border-width: 0px 1px 1px 0px;
+	border-color: #a0a0a0;
+	border-style: solid;
+}
+
+div div div div div{
+	border-width: 0px 1px 1px 0px;
+	border-color: #808080;
+	border-style: solid;
+}
+div div div div div div{
+	border-width: 0px 1px 1px 0px;
+	border-color: #606060;
+	border-style: solid;
+}
+div div div div div div div{
+	border-width: 0px 1px 1px 0px;
+	border-color: #404040;
+	border-style: solid;
+}
+div div div div div div div div{
+	border-width: 0px 1px 1px 0px;
+	border-color: #202020;
+	border-style: solid;
+}
+div div div div div div div div div{
+	border-width: 0px 1px 1px 0px;
+	border-color: #000000;
+	border-style: solid;
+	background: blue;
+	color: white;
+	padding 3px;
+
+}

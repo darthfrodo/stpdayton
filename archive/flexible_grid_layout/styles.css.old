@@ -1,0 +1,136 @@
+body {
+	font:					normal 100% Helvetica, Arial, sans-serif;
+	background:			#ffffff url("fixed_tile.jpg") repeat-x fixed top left;
+	margin:				0px;
+}
+
+#paul_background {
+	background:			transparent url("chibi_paul.png") no-repeat scroll 3.5% 0%;
+	position:			absolute;
+	top:					0px;
+}
+
+#paul_title {
+	background:			transparent url("paul_title.png") no-repeat scroll 3.5% -50px;
+	padding:				10px 0px;
+}
+
+#title {
+	background:			#6c66a5 url("title_gradient_tile.jpg") repeat-x scroll top left;
+	/*border-width:		0px 0px 2px;
+	border-style:		solid;
+	border-color:		#5b568b;*/
+	margin:				50px 0px 10px;
+}
+
+#title_bar {
+	text-align:			center;
+	margin:				0px 0px 0px 15%;
+	max-width:			70%;
+}
+
+#title_left {
+	float:				left;
+}
+
+#title_right{
+	float:				right;
+}
+
+h1.box_header, #content h1, #nav_open{
+	background:			#9893c8 url("content_h1_tile.jpg") repeat-x scroll bottom left;
+	font-size:			1.3em;
+	text-align:			center;
+}
+
+#content {
+	background:			#FFFFFF;
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		0px 1px 1px;
+	width:				66.667%;
+	margin-left:		16.666%;
+}
+
+#content p {
+	margin:				5px;
+}
+
+#content h1 {
+	margin:				0px 0px 5px;
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		1px 0px;
+	padding:				0px 5px;
+}
+
+#content h2 {
+	margin:				3px;
+	font-size:			1em;
+}
+
+#navigation {
+	width:				16.666%;
+	float:				left;
+	clear:				left;
+}
+
+#nav_open {
+	width:				80%;
+	padding:				0px;
+	margin:				0px 0px 0px 10%;
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		1px;
+}
+
+#navigation ul {
+	list-style:			none inside none;
+	padding:				1px 0px;
+	margin:				0px 0% 0px 10%;
+	width:				80%;
+	background:			#FFFFFF;
+	border-style:		solid;
+	border-color:		#5b568b;
+	border-width:		0px 1px 1px;
+}
+
+#navigation ul li {
+	margin:				0.333em 10px 0.333em 0px;
+}
+
+#navigation ul li a {
+	text-align:			center;
+	display:				block;
+}
+
+#navigation ul li a:hover {
+	background:			red;
+}
+
+#right {
+	width:				16.666%;
+	float:				right;
+}
+
+#footer {
+	background:			#207230;
+	width:				66.667%;
+	margin-left:		16.666%;
+}
+
+#footer div {
+	background-image:		url("down_left.gif");
+	background-position:	bottom left;
+	background-repeat:	no-repeat;
+ }
+
+ #footer div div {
+	background-image:		url("down_right.gif");
+	background-position:	bottom right;
+	background-repeat:	no-repeat;
+	padding:					5px;
+}
+
+
+
