@@ -1,0 +1,12 @@
+<h3>Announcements</h3>
+get "/announce" do
+   foreach $children[:3] do
+      <dev class="announce">
+      <span class="date">@date</span>
+      <h4>@title</h4>
+      @content
+      </dev>
+   endforeach
+end
+      
+
