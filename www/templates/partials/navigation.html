@@ -1,5 +1,16 @@
 <ul id="navigation">
-  foreach $root do
+  foreach $root[:3] do
+    <li>
+      <a href="@url">@title</a>
+      :children
+    </li>
+  endforeach
+    <!--Extermal Link to Father Ted's Blog-->
+    <!--TODO: Move this?-->
+    <li>
+      <a href="https://frted.wordpress.com">Fr. Ted's Blog</a>
+    </li>
+  foreach $root[3:] do
     <li>
       <a href="@url">@title</a>
       :children

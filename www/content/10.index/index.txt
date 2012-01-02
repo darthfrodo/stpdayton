@@ -1,3 +1,5 @@
+title:Home
+-
 welcome:
 ## Welcome ##
 St Paul's is a parish of the Orthodox Church in America, in
@@ -58,4 +60,3 @@ Church in America
 - <a HREF="http://midwestdiocese.org">midwestdiocese.org</a>
 
 -
-
