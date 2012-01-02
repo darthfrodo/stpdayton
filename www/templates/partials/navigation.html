@@ -1,14 +1,19 @@
-<div class="bg444 padding_top_15 padding_bottom_15">
-   <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Bulletin</a></li>
-      <li><a href="">About Orthodoxy</a></li>
-      <li><a href="">Fr. Ted's Blog</a></li>
-      <li><a href="">Pictures</a></li>
-      <li><a href="">Calendar</a></li>
-      <li><a href="">Ministries</a></li>
-      <li><a href="">Youth</a></li>
-      <li><a href="">Directions</a></li>
-      <li><a href="">Links</a></li>
-   </ul>
-</div>
+<ul id="navigation">
+  foreach $root[:3] do
+    <li>
+      <a href="@url">@title</a>
+      :children
+    </li>
+  endforeach
+    <!--Extermal Link to Father Ted's Blog-->
+    <!--TODO: Move this?-->
+    <li>
+      <a href="https://frted.wordpress.com">Fr. Ted's Blog</a>
+    </li>
+  foreach $root[3:] do
+    <li>
+      <a href="@url">@title</a>
+      :children
+    </li>
+  endforeach
+</ul>
