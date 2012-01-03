@@ -42,10 +42,17 @@ li#current {
    border-right:dashed #999 1px;
    border-top:dashed #999 1px;
    padding:  1em;
+   word-wrap:break-word;
 }
 
 .contact p{
    font-size: 0.8em;
+}
+
+.contact img{
+   margin-left:3em;
+   margin-right:auto;
+   margin-bottom:0
 }
 
 .contact h4{
@@ -84,6 +91,23 @@ Mobile version - preset code from cssgrid.net */
 
 	body {}
 	
+   .navigation {
+      text-align:center;
+      border-left: 1px dashed;
+      direction:  ltr;
+      padding: 1em;
+   }
+
+   .navigation a{
+      font-size:1.2em;
+   }
+
+   .navigation li{
+      display:inline;
+      line-height:3em;
+      margin:1em;
+   }
+
 }
 
 

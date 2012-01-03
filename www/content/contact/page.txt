@@ -9,17 +9,20 @@ Office assistant: <office@stpdayton.org>
 
 #### Clergy ####
 
+![Father Ted](@path/image1.jpg)  
 **VRev. Theodore Bobosh, Rector**:  
 
 937-297-3060  
 937-320-9977  
 <FrTed@stpdayton.org>
 
+![Deacon Steve](@path/image2.jpg)  
 **Rev Dn. Stephan Gresh, Deacon**:
 
 937-465-0519  
 <deaconsteveg@earthlink.net>
 
+![Bishop Matthias](@path/image3.jpg)  
 **The Right Reverend Matthias, Bishop of Chicago and the
 Midwest, Orthodox Church in America:**
 
