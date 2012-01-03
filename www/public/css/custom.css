@@ -6,16 +6,28 @@ body {
 
 }
 
-h1 {
-   padding-left: 10px;
+h4{
+   font-size:1em;
 }
 
-h2{
-   padding-left: 10px;
+.announce {
+   margin:1em;
+}
+.announce h4{
+display:inline;
 }
 
-h3 {
-   padding-left: 10px;
+.announce p{
+   font-size: 0.8em;
+}
+
+.announce .content {
+   border-top: 1px dashed;
+}
+
+.announce .date {
+   float: right;
+   margin:  0;
 }
 
 /*
