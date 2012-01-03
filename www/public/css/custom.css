@@ -6,15 +6,31 @@ body {
 
 }
 
+h3{
+   margin-top:0;
+}
+
 h4{
    font-size:1em;
+}
+
+.contact {
+   padding:  1em;
+}
+
+.contact p{
+   font-size: 0.8em;
+}
+
+.contact h4{
+   border-bottom: 1px dashed;
 }
 
 .announce {
    margin:1em;
 }
 .announce h4{
-display:inline;
+   display:inline;
 }
 
 .announce p{
