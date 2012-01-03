@@ -1,25 +1,13 @@
-<ul class="bgddd navigation">
-  foreach $root[:3] do
-    <li
-      if @is_current do
-         id="current"
-      endif
-      >
-      <a href="@url">
-         @title
-      </a>
-
-
-    </li>
-  endforeach
-    <!--Extermal Link to Father Ted's Blog-->
-    <!--TODO: Move this?-->
-    <li>
-      <a href="https://frted.wordpress.com">Fr. Ted's Blog</a>
-    </li>
-  foreach $root[3:] do
-    <li>
+<ul class="navigation">
+   <li>
+      <a href="@root_path">Home</a>
+   </li>
+   foreach $root do
+   <li>
       <a href="@url">@title</a>
-    </li>
-  endforeach
+   </li>
+   endforeach
+   <li>
+      <a href="https://frted.wordpress.com">Fr. Ted's Blog</a>
+   </li>
 </ul>
