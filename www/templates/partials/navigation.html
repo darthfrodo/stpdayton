@@ -1,8 +1,15 @@
-<ul class="bg444" id="navigation">
+<ul class="bgddd navigation">
   foreach $root[:3] do
-    <li>
-      <a href="@url">@title</a>
-      :children
+    <li
+      if @is_current do
+         id="current"
+      endif
+      >
+      <a href="@url">
+         @title
+      </a>
+
+
     </li>
   endforeach
     <!--Extermal Link to Father Ted's Blog-->
@@ -13,7 +20,6 @@
   foreach $root[3:] do
     <li>
       <a href="@url">@title</a>
-      :children
     </li>
   endforeach
 </ul>
