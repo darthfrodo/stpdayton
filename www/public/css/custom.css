@@ -81,6 +81,15 @@ li#current {
    margin:  0;
 }
 
+@font-face{
+    font-family:"TriodPostnaja";
+    src: url(../docs/TriodPostnaja.ttf) format("truetype");
+}
+
+h1,h2,h3,.navigation{
+   font-weight:normal;
+   font-family:"TriodPostnaja";
+}
 /*
 _______________________________
 Mobile version - preset code from cssgrid.net */
