@@ -83,7 +83,7 @@ li#current {
 
 @font-face{
     font-family:"TriodPostnaja";
-    src: url(../docs/TriodPostnaja.ttf) format("truetype");
+    src: url(../../docs/TriodPostnaja.ttf) format("truetype");
 }
 
 h1,h2,h3,.navigation{
