@@ -127,8 +127,8 @@ Mobile version - preset code from cssgrid.net */
 	body {}
 	
    .navigation {
+      border-left:solid #bbb 1px;
       text-align:center;
-      border-left: 1px dashed;
       direction:  ltr;
       padding: 1em;
    }
@@ -142,6 +142,11 @@ Mobile version - preset code from cssgrid.net */
       display:inline;
       line-height:3em;
       margin:1em;
+   }
+
+   .announce {
+      border-right:solid #bbb 1px;
+      padding:1em;
    }
 
 }
