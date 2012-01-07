@@ -1,2 +1,12 @@
 title:Bulletin
 -
+content:
+###Weekly Bulletin###
+####This Sunday:####  
+[Bulletin 1/1/12](http://www.stpdayton.org/bulletin1-1-12.html)  
+####Previous Weeks:####  
+[Bulletin 12/25/11](http://www.stpdayton.org/bulletin12-25-11.html)  
+[Bulletin 12/18/11](http://www.stpdayton.org/bulletin12-18-11.html)  
+[Bulletin 12/11/11](http://www.stpdayton.org/bulletin12-11-11.html)  
+[Bulletin 12/4/11](http://www.stpdayton.org/bulletin12-4-11.html)  
+-
