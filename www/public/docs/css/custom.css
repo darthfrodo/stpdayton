@@ -4,7 +4,6 @@ Desktop version layout - place your custom code here */
 
 body {
 background:#eeeeee;
-
 }
 
 @font-face{
@@ -86,6 +85,10 @@ h4{
    margin-left:3em;
    margin-right:auto;
    margin-bottom:0
+}
+
+.images {
+   margin-top: 2em;
 }
 
 .announce {
